@@ -1,0 +1,37 @@
+{
+  "hotel_name": "Sunrise Grand",
+  "check_in_time": "2:00 PM",
+  "check_out_time": "11:00 AM",
+  "amenities": {
+    "swimming_pool": "Yes, rooftop infinity pool, open 6 AM - 9 PM",
+    "breakfast": "Complimentary buffet breakfast included with every booking, served 7 AM - 10:30 AM",
+    "wifi": "Free WiFi throughout the property",
+    "gym": "24-hour gym access",
+    "restaurant": "In-house multi-cuisine restaurant",
+    "airport_shuttle": "Available on request, additional charge applies"
+  },
+  "cancellation_policy": "Free cancellation up to 48 hours before check-in. Cancellations within 48 hours are charged one night's fare.",
+  "rooms": [
+    {
+      "id": "standard",
+      "name": "Standard Room",
+      "capacity": 2,
+      "price_per_night": 3500,
+      "booked_dates": ["2026-09-20", "2026-09-21"]
+    },
+    {
+      "id": "deluxe",
+      "name": "Deluxe Room",
+      "capacity": 3,
+      "price_per_night": 5000,
+      "booked_dates": ["2026-09-25"]
+    },
+    {
+      "id": "family_suite",
+      "name": "Family Suite",
+      "capacity": 4,
+      "price_per_night": 7500,
+      "booked_dates": []
+    }
+  ]
+}
